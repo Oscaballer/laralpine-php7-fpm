@@ -11,6 +11,7 @@ RUN apk add --no-cache \
   php7 \
   php7-fpm \
   php7-mcrypt \
+  php7-tokenizer \
   php7-mysqli \
   php7-phar \
   php7-pdo_mysql \
