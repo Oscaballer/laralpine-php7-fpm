@@ -25,6 +25,19 @@ RUN apk add --no-cache \
   php7-bcmath \
   php7-mbstring \
   php7-curl \
+  php7-iconv \
+  php7-zip \
+  php7-simplexml \
+  php7-soap \
+  php7-sodium \
+  php7-openssl \
+  php7-ctype \
+  php7-zlib \
+  php7-dom \
+  php7-xmlreader \
+  php7-intl \
+  php7-fileinfo \
+  php7-exif \
   supervisor
 
 COPY config/nginx.conf /etc/nginx/nginx.conf
